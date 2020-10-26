@@ -1,0 +1,12 @@
+package com.example.bug;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class BugSpelClassLoaderApplication {
+
+    public static void main(String[] args) {
+        SpringApplication.run(BugSpelClassLoaderApplication.class, args);
+    }
+}
